@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">Surf Expo</div>
+        <div class="burger" id="burger"></div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="#hero">Hero</a></li>
+                <li><a href="#about">À Propos</a></li>
+                <li><a href="#card-weather">Météo</a></li>
+                <li><a href="#localisation">Localisation</a></li>
+            </ul>
+        </nav> <a href="#contact" id="contact-btn">Contact</a> </header>
+    <main id="hero">
+        <h1>Taghazout Surf Expo</h1>
+        <h2>Du 27/07/2024 au 30/07/2024<br>Plage de Taghazout, Maroc</h2>
+        <a href="#ev-prog" class="program-btn">Le programme</a>
+    </main>
+    </div>
+    <div>
+        <article id="about">
+            <div class="aboutus">
+                <h1>À Propos de l'Événement</h1>
+                <p>Le Taghazout Surf Expo est l'événement incontournable pour tous<br> les amateurs de surf au Maroc et au-delà. Pendant trois jours,<br>nous célébrons la culture du surf avec des compétitions<br> passionnantes, des expositions de matériel
+                    dernier cri, des<br>initiations pour débutants et des moments de partage<br>inoubliables.</p>
+            </div>
+            <div class="surfboard"> <img src="beginner-surfboards-13.jpg" alt="surfboard"> </div>
+        </article>
+        <section class="sections">
+            <h2>Expositions</h2>
+            <p>Découvrez le matériel de surf le plus récent des plus grandes marques internationales et locales.</p>
+        </section>
+        <section class="sections">
+            <h2>Compétitions</h2>
+            <p>Surfeurs professionnels et amateurs s'affrontent dans différentes catégories avec des prix à la clé.</p>
+        </section>
+        <section class="sections">
+            <h2>Cours de surf pour débutants</h2>
+            <p>Des cours pour tous les niveaux, dirigés par des instructeurs certifiés et des surfeurs professionnels.</p>
+        </section>
+    </div>
+    <div id="card-weather">
+        <div id="result"></div>
+    </div>
+    <section>
+        <div id="ev-prog">
+            <h1>Programme de l'Événement</h1>
+            <div class="event-day">
+                <h2>jour 1:</h2>
+                <div class="event-item">
+                    <div class="event-time">8.00 - 9.30</div>
+                    <div class="event-details">Cérémonie d'ouverture et inscription des compétiteurs</div>
+                    <div class="event-time">10.00 - 16.00</div>
+                    <div class="event-details">Qualifications Hommes - Catégorie Open Qualifications Femmes - Toutes catégories</div>
+                    <div class="event-time">16.30 - 18.00</div>
+                    <div class="event-details">Atelier technique: Perfectionnement du take-off</div>
+                    <div class="event-time">19.30 - 22.00</div>
+                    <div class="event-details">Soirée d'ouverture avec musique live et cuisine locale</div>
+                </div>
+                <h2>jour 2</h2>
+                <div class="event-item">
+                    <div class="event-time">8.00 - 10.30</div>
+                    <div class="event-details">Quarts de finale - Toutes catégories</div>
+                    <div class="event-time">11.00 - 13.00</div>
+                    <div class="event-details">Initiation au surf pour débutants (session 1)</div>
+                    <div class="event-time">14.00 - 16.30</div>
+                    <div class="event-details">Demi-finales Hommes et Femmes</div>
+                    <div class="event-time">17.30 - 18.30</div>
+                    <div class="event-details">Conférence: L'évolution du surf au Maroc</div>
+                </div>
+                <h2>jour 3</h2>
+                <div class="event-item">
+                    <div class="event-time">8.00 - 10.30</div>
+                    <div class="event-details">Initiation au surf pour débutants (session 2)</div>
+                    <div class="event-time">10.30 - 12.00</div>
+                    <div class="event-details">Finales - Catégorie Junior</div>
+                    <div class="event-time">13.30 - 15.00</div>
+                    <div class="event-details">Finales - Catégories Hommes et Femmes Open</div>
+                    <div class="event-time">16.30 - 18.00</div>
+                    <div class="event-details">Cérémonie de remise des prix et tirage au sort</div>
+                    <div class="event-time">18.30 - 20.00</div>
+                    <div class="event-details">Clôture de l'événement avec buffet et animations</div>
+                </div>
+            </div>
+        </div>
+        <section>
+            <div id="localisation"> </div>
+        </section>
+        <section id="taghazoutmap">
+            <div class="local"> </div>
+            <div class="map"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2662.103530837584!2d-9.7110638!3d30.545718250000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdb24d4538db0173%3A0x3d5bf22fe7d11aca!2sTaghazout!5e1!3m2!1sen!2sma!4v1759400309586!5m2!1sen!2sma"
+                    width="900" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> </div>
+        </section>
+        <section id="contact">
+            <div class="contact-container">
+                <form>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Type your email">
+
+                    <label for="message">Votre message</label>
+                    <textarea id="message" placeholder="Write here..."></textarea>
+
+                    <button type="submit">Envoyer</button>
+                </form>
+
+                <div class="contact-info">
+                    <h3>Contactez-nous</h3>
+                    <p>📧 contact@surfexpo.com</p>
+                    <p>📞 +212 6 xx xx xx xx</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <footer>
+                <p>&copy; 2025 Taghazout Surf Expo - Tous droits réservés</p>
+            </footer>
+        </section>
+        <script>
+            const API_KEY = '93a3bfa65ba9c786410da34adf9c1725';
+            const URL = `https://api.openweathermap.org/data/2.5/weather?q=Taghazout,MA&units=metric&appid=${API_KEY}`;
+
+            const result = document.getElementById("result");
+
+            async function getWeather() {
+                try {
+                    const response = await fetch(URL);
+                    if (!response.ok) throw new Error('Failed to get weather');
+
+                    const data = await response.json();
+                    const iconCode = data.weather[0].icon;
+                    const iconUrl = `https://openweathermap.org/img/wn/${iconCode}@2x.png`;
+
+                    result.innerHTML = `
+                <div class="weather-card">
+                    <h2>${data.name}, ${data.sys.country}</h2>
+                    <img src="${iconUrl}" alt="${data.weather[0].description}">
+                    <p class="temp">${Math.round(data.main.temp)}°C</p>
+                    <p>${data.weather[0].description}</p>
+                    <p>Humidity: ${data.main.humidity}%</p>
+                    <p>Wind: ${data.wind.speed} m/s</p>
+                    <p>Feels like: ${Math.round(data.main.feels_like)}°C</p>
+                </div>
+            `;
+                } catch (error) {
+                    result.innerHTML = `<p class="error">⚠️ ${error.message}</p>`;
+                }
+            }
+
+            getWeather();
+
+
+            // Burger menu 
+            const burger = document.getElementById("burger");
+            const navBar = document.getElementById("nav-bar");
+
+            burger.addEventListener("click", () => {
+                navBar.classList.toggle("active");
+            });
+        </script>
+
+</body>
+
+</html>
