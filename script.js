@@ -9,9 +9,9 @@
                     if (!response.ok) throw new Error('Failed to get weather');
 
                     const data = await response.json();
-                    const iconCode = ata.weather[0].icon;
+                    const iconCode = data.weather[0].icon;
                     const iconUrl = `https://openweathermap.org/img/wn/${iconCode}@2x.png`;
-                    result.innerHTML = `d
+                    result.innerHTML = `
                 <div class="weather-card">
                     <h2>${data.name}, ${data.sys.country}</h2>
                     <img src="${iconUrl}">
@@ -28,3 +28,4 @@
             }
 
             getWeather();
+
