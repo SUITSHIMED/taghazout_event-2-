@@ -1,4 +1,6 @@
- const API_KEY = '93a3bfa65ba9c786410da34adf9c1725';
+// "document is not defined" happens fl output because I ran this js outside the browser. It only works inside HTML <script>.
+
+const API_KEY = '93a3bfa65ba9c786410da34adf9c1725';
             const URL = `https://api.openweathermap.org/data/2.5/weather?q=Taghazout,MA&units=metric&appid=${API_KEY}`;
 
             const result = document.getElementById("result");
@@ -28,4 +30,5 @@
             }
 
             getWeather();
+
 
